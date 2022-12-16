@@ -3,7 +3,7 @@ import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import { useState } from 'vue'
 import Widget, { modal, journey, user } from './package/modal'
-import './App.css'
+import '/src/App.css'
 
 new Widget({
   props: {
