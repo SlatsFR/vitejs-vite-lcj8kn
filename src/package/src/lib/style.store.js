@@ -1,0 +1,1 @@
+import{readable as e}from"../../node_modules/svelte/store/index.js";let o;function t(t){o=e(t)}export{t as initialize,o as style};

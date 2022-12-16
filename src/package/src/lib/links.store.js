@@ -1,0 +1,1 @@
+import{readable as o}from"../../node_modules/svelte/store/index.js";import e from"../../node_modules/zod/lib/index.js";const t=e.object({termsAndConditions:e.string()});let n;function i(e){n=o(e)}t.partial();export{i as initialize,n as links,t as linksSchema};
